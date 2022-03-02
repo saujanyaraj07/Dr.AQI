@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "61510939327",
+    "project_id": "dr-aqi",
+    "storage_bucket": "dr-aqi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61510939327:android:bbdc0531336edf7b400c0a",
+        "android_client_info": {
+          "package_name": "com.example.dr_aqi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61510939327-04eoic4qt9ueco5358evk92ho5vicfpb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dr_aqi",
+            "certificate_hash": "1e66ccaa84be37a36073a0815736faf8673a94bf"
+          }
+        },
+        {
+          "client_id": "61510939327-jr15hidkn41h6hebpd0332g29gvsl54a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6feUrPe6cysoo6tidsbqNPyhF0s4xknI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61510939327-jr15hidkn41h6hebpd0332g29gvsl54a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
