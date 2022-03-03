@@ -72,10 +72,10 @@ class Nav_B extends StatelessWidget {
         children: [
           Image.asset(
             'assets/images/bg.png',
-            fit: BoxFit.cover ,
+            fit: BoxFit.cover,
           ),
           // Container(
-          //   height: 369, 
+          //   height: 369,
           //   width: 429,
           //   child: Image.asset(
           //     'assets/images/next1.png',
@@ -135,25 +135,28 @@ class Nav_C extends StatelessWidget {
             'assets/images/bg.png',
             fit: BoxFit.cover,
           ),
-          // Container(
-          //   height: 369,
-          //   width: 429,
-          //   child: Image.asset(
-          //     'assets/images/next1.png',
-          //     fit: BoxFit.cover,
-          //   ),
-          // ),
-          Positioned(
-            top: 450,
-            left: 125,
-            child: Text(
-              "Mitigation",
-              style: TextStyle(
-                  fontSize: 25,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(12.0, 50.0, 15.0, 0),
+            child: Container(
+              height: 570,
+              width: 389,
+              child: Image.asset(
+                'assets/images/iagree.png',
+                fit: BoxFit.cover,
+              ),
             ),
           ),
+          // Positioned(
+          //   top: 450,
+          //   left: 125,
+          //   child: Text(
+          //     "Mitigation",
+          //     style: TextStyle(
+          //         fontSize: 25,
+          //         fontWeight: FontWeight.bold,
+          //         color: Colors.white),
+          //   ),
+          // ),
           Positioned(
             left: 130,
             top: 700,

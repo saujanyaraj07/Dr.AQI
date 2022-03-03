@@ -12,19 +12,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LogInPage(),
-    );
-  }
-}
-
-class LogInPage extends StatelessWidget {
-  const LogInPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Nav_A(),
     );
   }
 }
+
+// class LogInPage extends StatelessWidget {
+//   const LogInPage({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       home: Nav_A(),
+//     );
+//   }
+// }
