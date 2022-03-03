@@ -1,3 +1,4 @@
+import 'package:dr_aqi/screena/bottomnavbar/navbar.dart';
 import 'package:flutter/material.dart';
 
 class Nav_A extends StatelessWidget {
@@ -165,7 +166,12 @@ class Nav_C extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(20.0))),
               color: Colors.black,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => BottomBar()),
+                );
+              },
               child: Text(
                 "I agree",
                 style: TextStyle(
