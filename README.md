@@ -33,14 +33,6 @@
 
 
 
-
-
-
-
-# About Dr.AQI App
-
-
-
 # Benefits of Dr.AQI App
 
 
