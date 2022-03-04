@@ -21,28 +21,32 @@
 - Air pollution may reduce life expectancy of Indians by **nine years**.
 
 ## 2.) Lack of proper mitigation strategy and unified approach. Interference by different agencies such as Supreme Court of India, National Green Tribunal (NGT), Ministries.
-- India's Air Pollution Mitigation Strategy lacks proper Direction. The American mathematician Edward Quade once said that “policy makers seem to fail more often because they solve the wrong problem than because they get the wrong solution to the right problem”. Quade’s observation holds true even today – more so in the context of India’s air pollution crisis, which suffers from a surplus of ‘solutions’ with very little understanding of the problem.
-- Many times, the courts have had to intervene for the authorities to take action on air pollution.
+- India's Air Pollution Mitigation Strategy lacks proper Direction. Mostly metro cities have certain well-defined mitigation measures however there’s lack of such measures in many other states.
+- There’s a lack of unified approach by State Government & Central Government and respective concerned authorities which leads to delay in implementation of various mitigation measures and subsequent loss to exchequer.
+- Many times, the courts have had to intervene for the authorities to take action on air pollution which are done in a haste or for the sake of compliance.
 
 ## 3.) Failure of existing Graded Response Action Plan (GRAP): Non-availability of varied real time data from limited number of air pollution monitoring stations.
 - In 2016, the Supreme Court approved the implementation of a Graded Response Action Plan (GRAP) for Delhi and NCR. Pursuant to this, the government notified the GRAP to be implemented through the Environment Pollution (Prevention & Control) Authority (EPCA). GRAP is basically a plan to be implemented when the air quality deteriorates.
 - Under the National Air Quality Monitoring Programme (NAMP),There are 573 operating stations in only 240 cities/towns (out of 4000 cities in India) in 26 states (out of 28 states in India) and 5 Union Territories (out of 8 Union Territories in India) of the country.
 - Let’s take case of Bihar. The state capital Patna and Muzaffarpur figured among the four most polluted cities in the country and among the 32 most polluted cities globally, according to the the ‘World Air Quality Report, 2020’. 
-- Now according to National Air Quality Monitoring Programme (NAMP), there are only 2 Air quality monitoring stations in Bihar that too only in Patna.
-
-
-
+- Now according to [National Air Quality Monitoring Programme (NAMP)](http://cpcbenvis.nic.in/airpollution/monetoring.htm), there are only 2 Air quality monitoring stations in Bihar that too only in Patna.
+- This is the where the problem lies. Limited number of Air Quality Monitoring Stations in such Highly polluted cities generate less and very inaccurate AQI data due to which  proper planning/ strategy/solution to combat air pollution is not implemented.
 
 # Benefits of Dr.AQI App
+Dr. AQI app provides **Real-Time AQI monitoring** and **mitigation strategy** for implementation as per severity of AQI level.
 
-
+## A.)	MONITORING
+- Real-Time AQI Data will be pooled from Government Pollution Monitoring Stations, various pollution check up centres and portable AQI monitors on Ola/Uber Taxis. It will be populated on the server master console.
+- The severity of AQI will get highlighted area-wise.
+## B.) 	MITIGATION
+- The historical data in conjugation with real-time data shall be processed using AI/ML and priority zoning will be done for an area covering 500 m radius. Proper mitigation measures will be suggested for implementation according to the AQI category of the zone. 
+- The effectiveness of the measures shall be captured in the system in quantitative way and shall be further displayed on the App’s dashboard.
 
 # Features of Dr.AQI App
 
 
 
 # How we built it?
-
-
+Using Dart,Flutter and Firebase
 
 # App Demo
