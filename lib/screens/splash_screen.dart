@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:dr_aqi/screens/intro_screen.dart';
 import 'package:flutter/material.dart';
 
+import '../auth/login_page.dart';
 import '../constants/gradient.dart';
 
 class Splash extends StatefulWidget {
@@ -20,7 +21,7 @@ class _SplashState extends State<Splash> {
           ()=>Navigator.pushReplacement(context,
                 MaterialPageRoute(builder:
                                   (context) => 
-                                  const IntroScreen()
+                                  LoginPage()
                                   )
                 )
     );
