@@ -1,4 +1,5 @@
 import 'package:dr_aqi/screens/intro_screen.dart';
+import 'package:dr_aqi/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IntroScreen(),
+      home: Splash(),
     );
   }
 }
