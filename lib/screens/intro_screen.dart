@@ -1,3 +1,4 @@
+import 'package:dr_aqi/screens/root.dart';
 import 'package:flutter/material.dart';
 import 'package:intro_slider/intro_slider.dart';
 import 'package:intro_slider/slide_object.dart';
@@ -79,8 +80,11 @@ class _IntroScreenState extends State<IntroScreen> {
   }
 
   void onDonePress() {
-    // Back to the first tab
-    goToTab(0);
+    Navigator.push(
+      context,
+      MaterialPageRoute<void>(
+          builder: (context) => const RootApp()),
+    );
   }
 
   void onTabChangeCompleted(index) {
