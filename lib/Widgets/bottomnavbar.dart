@@ -1,7 +1,7 @@
-import 'package:dr_aqi/screena/DashBoard.dart';
-import 'package:dr_aqi/screena/Home.dart';
-import 'package:dr_aqi/screena/Map.dart';
-import 'package:dr_aqi/screena/Profile.dart';
+import 'package:dr_aqi/screens/DashBoard.dart';
+import 'package:dr_aqi/screens/Home.dart';
+import 'package:dr_aqi/screens/Map.dart';
+import 'package:dr_aqi/screens/Profile.dart';
 import 'package:flutter/material.dart';
 
 class BottomBar extends StatefulWidget {
