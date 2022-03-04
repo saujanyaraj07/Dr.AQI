@@ -1,3 +1,4 @@
+import 'package:dr_aqi/screens/root.dart';
 import 'package:flutter/material.dart';
 import 'package:intro_slider/intro_slider.dart';
 import 'package:intro_slider/slide_object.dart';
@@ -20,67 +21,15 @@ class _IntroScreenState extends State<IntroScreen> {
 
   @override
   void initState() {
-    super.initState();
-
-    slides.add(
-      Slide(
-        title: "Real - Time AQI Monitoring",
-        styleTitle: const TextStyle(
-            color: Colors.white,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),
-        description:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
-        styleDescription: const TextStyle(
-            color: Color(0xfffe9c8f),
-            fontSize: 20.0,
-            fontStyle: FontStyle.italic,
-            fontFamily: 'Raleway'),
-        pathImage: "images/next1.png",
-      ),
-    );
-    slides.add(
-      Slide(
-        title: "Mitigation",
-        styleTitle: const TextStyle(
-            color: Colors.white,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),
-        description:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
-        styleDescription: const TextStyle(
-            color: Color(0xfffe9c8f),
-            fontSize: 20.0,
-            fontStyle: FontStyle.italic,
-            fontFamily: 'Raleway'),
-        pathImage: "",
-      ),
-    );
-    slides.add(
-      Slide(
-        title: "",
-        styleTitle: const TextStyle(
-            color: Colors.white,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),
-        description:
-            "",
-        styleDescription: const TextStyle(
-            color: Color(0xfffe9c8f),
-            fontSize: 20.0,
-            fontStyle: FontStyle.italic,
-            fontFamily: 'Raleway'),
-        pathImage: "images/iagree.png",
-      ),
-    );
+    super.initState();    
   }
 
   void onDonePress() {
-    // Back to the first tab
-    goToTab(0);
+    Navigator.push(
+      context,
+      MaterialPageRoute<void>(
+          builder: (context) => const RootApp()),
+    );
   }
 
   void onTabChangeCompleted(index) {
@@ -170,8 +119,8 @@ class _IntroScreenState extends State<IntroScreen> {
                     child: Image.asset(
                   "images/mitigation.png",
                   width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height*0.5,
-                  fit: BoxFit.fitWidth,
+                  height: MediaQuery.of(context).size.height*0.6,
+                  fit: BoxFit.fill,
                 )),
                 Container(
                   child: const Text(
@@ -184,7 +133,7 @@ class _IntroScreenState extends State<IntroScreen> {
                     ),
                     textAlign: TextAlign.center,
                   ),
-                  margin: const EdgeInsets.only(top: 50.0),
+                  margin: const EdgeInsets.only(top: 40.0),
                 ),
                 Container(
                   child: const Text(
@@ -236,7 +185,7 @@ class _IntroScreenState extends State<IntroScreen> {
         height: MediaQuery.of(context).size.height,
         child: IntroSlider(
           // List slides
-          slides: slides,
+          //slides: slides,
       
           // Skip button
           renderSkipBtn: renderSkipBtn(),

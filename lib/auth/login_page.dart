@@ -1,8 +1,9 @@
-import 'package:dr_aqi/Widgets/bottomnavbar.dart';
 import 'package:dr_aqi/auth/login_controller.dart';
 // import 'package:dr_aqi/screena/bottomnavbar/navbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../screens/intro_screen.dart';
 
 class LoginPage extends StatelessWidget {
   final controller = Get.put(LoginController());
@@ -22,7 +23,7 @@ class LoginPage extends StatelessWidget {
   }
 
   Widget buildProfileView() {
-    return BottomBar();
+    return const IntroScreen();
   }
 
   FloatingActionButton buildLoginButton() {

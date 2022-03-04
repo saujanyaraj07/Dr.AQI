@@ -1,5 +1,4 @@
-import 'package:dr_aqi/auth/login_page.dart';
-import 'package:dr_aqi/screens/intro_screen.dart';
+import 'package:dr_aqi/screens/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -14,9 +13,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: Splash(),
     );
   }
 }
