@@ -3,6 +3,7 @@ import 'package:dr_aqi/auth/login_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../constants/gradient.dart';
 import '../screens/intro_screen.dart';
 
 class LoginPage extends StatelessWidget {
@@ -11,13 +12,18 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 235, 233, 240),
-      body: Center(
-        child: Obx(() {
-          if (controller.googleAccount.value == null)
-            return buildLoginButton();
-          else
-            return buildProfileView();
-        }),
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: AppGradient()
+        ),
+        child: Center(
+          child: Obx(() {
+            if (controller.googleAccount.value == null)
+              return buildLoginButton();
+            else
+              return buildProfileView();
+          }),
+        ),
       ),
     );
   }
@@ -31,7 +37,7 @@ class LoginPage extends StatelessWidget {
       onPressed: () {
         controller.login();
       },
-      // icon: Image.asset('assets/images/googlesign.png'),
+      icon: Image.asset('assets/images/googlesign.png'),
       label: Text("Sign in With Google"),
       backgroundColor: Colors.white,
       foregroundColor: Colors.black,

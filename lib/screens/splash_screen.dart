@@ -5,7 +5,7 @@ import '../auth/login_page.dart';
 import '../constants/gradient.dart';
 
 class Splash extends StatefulWidget {
-  const Splash({ Key? key }) : super(key: key);
+  const Splash({Key? key}) : super(key: key);
 
   @override
   State<Splash> createState() => _SplashState();
@@ -15,15 +15,12 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 6),
-          ()=>Navigator.pushReplacement(context,
-                MaterialPageRoute(builder:
-                                  (context) => 
-                                  LoginPage()
-                                  )
-                )
-    );
+    Timer(
+        const Duration(seconds: 6),
+        () => Navigator.pushReplacement(
+            context, MaterialPageRoute(builder: (context) => LoginPage())));
   }
+
   @override
   Widget build(BuildContext context) {
     return Container(
