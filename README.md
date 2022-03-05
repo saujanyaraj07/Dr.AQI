@@ -1,7 +1,7 @@
 <p align="center"> <img width="250" alt="DR AQI logo" src="https://user-images.githubusercontent.com/88873588/156773053-0da74826-4a5c-4556-b388-101667894b13.png">
 
   
-# <p align="center"> Dr. AQI App : For a healthier life that we dererve!  </p>
+# <p align="center"> Dr. AQI : For a healthier life that we dererve!  </p>
   
   
 
@@ -43,10 +43,11 @@ Dr. AQI app provides **Real-Time AQI monitoring** and **mitigation strategy** fo
 - The effectiveness of the measures shall be captured in the system in quantitative way and shall be further displayed on the App’s dashboard.
 
 # Features of Dr.AQI App
-
-
+- Dr.AQI brings you the most accurate data from the largest data-set of Government Pollution Monitoring Stations, various pollution check up centres and portable AQI monitors on Ola/Uber Taxis.
+- Smart Real-time notifications and updates keeps you protected and prepared.
+- Graphs and data visualisation (Area-wise and Time-wise ) on dashboard makes it easier to understand and plan.
 
 # How we built it?
-Using Dart,Flutter and Firebase
+Using Dart, Flutter and Firebase
 
 # App Demo
