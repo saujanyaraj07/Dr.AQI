@@ -16,22 +16,13 @@ import '../constants/gradient.dart';
  class _HomeState extends State<Home> {
    @override
    Widget build(BuildContext context) {
-     return Container(
-       decoration: BoxDecoration(
-        gradient: AppGradient(),
-      ),
-      child: const Center(
-        child: Text(
-          'Home',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'
-          ),
-          textAlign: TextAlign.center,
-        ),
-      ),
+     return Scaffold(
+       body: Container(
+         height: 1000,
+         width: 500,
+
+           decoration: BoxDecoration(color: Colors.white70),
+           child: Image.asset('assets/images/home1.png',fit: BoxFit.fill,),),
      );
    }
  }
