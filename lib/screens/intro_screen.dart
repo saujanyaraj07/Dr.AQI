@@ -164,7 +164,7 @@ class _IntroScreenState extends State<IntroScreen> {
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
                 child: Image.asset(
-                  "assets/images/iagree.png",
+                  "assets/images/accesscreen.png",
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height,
                   fit: BoxFit.contain,
