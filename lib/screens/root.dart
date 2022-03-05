@@ -53,7 +53,7 @@ class _RootAppState extends State<RootApp> {
                 icon: Icon(
                   itemsTab[index]['icon'],
                   size: itemsTab[index]['size'],
-                  color: activeTab == index ? Colors.orange : Colors.black,
+                  color: activeTab == index ? Colors.blue[800] : Colors.black,
                 )
               );
             }),
