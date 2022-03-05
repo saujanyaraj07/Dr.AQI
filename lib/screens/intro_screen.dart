@@ -71,10 +71,10 @@ class _IntroScreenState extends State<IntroScreen> {
               children: <Widget>[
                 GestureDetector(
                     child: Image.asset(
-                  "images/next1.png",
+                  "assets/images/next1.png",
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height*0.5,
-                  fit: BoxFit.fitWidth,
+                  fit: BoxFit.fill,
                 )),
                 Container(
                   child: const Text(
@@ -117,9 +117,9 @@ class _IntroScreenState extends State<IntroScreen> {
               children: <Widget>[
                 GestureDetector(
                     child: Image.asset(
-                  "images/mitigation.png",
+                  "assets/images/mitigation.png",
                   width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height*0.6,
+                  height: MediaQuery.of(context).size.height*0.5,
                   fit: BoxFit.fill,
                 )),
                 Container(
@@ -160,11 +160,14 @@ class _IntroScreenState extends State<IntroScreen> {
           child: Container(
             margin: const EdgeInsets.only(bottom: 90.0, top: 30.0),
             child: GestureDetector(
-              child: Image.asset(
-                "images/iagree.png",
-                width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height,
-                fit: BoxFit.contain,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
+                child: Image.asset(
+                  "assets/images/iagree.png",
+                  width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height,
+                  fit: BoxFit.contain,
+                ),
               )
             ),
           ),              

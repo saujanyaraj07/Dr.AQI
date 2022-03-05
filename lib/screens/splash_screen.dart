@@ -1,8 +1,6 @@
 import 'dart:async';
-
 import 'package:dr_aqi/screens/intro_screen.dart';
 import 'package:flutter/material.dart';
-
 import '../auth/login_page.dart';
 import '../constants/gradient.dart';
 
@@ -29,34 +27,33 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
-      /*decoration: BoxDecoration(
-        gradient:AppGradient(),
-      ),*/
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [Colors.blue[900]!, Colors.blue[200]!],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          stops: const [0.4, 1.0],
+        ),
+      ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset(
-            'images/drone.png',
-            width: MediaQuery.of(context).size.width*0.5,
+            'assets/images/logo.png',
+            width: MediaQuery.of(context).size.width*0.8,
             fit: BoxFit.contain,
-          ), 
-          Image.asset(
-            'images/logo-1.png',
-            width: MediaQuery.of(context).size.width*0.7,
-            fit: BoxFit.contain,
-          ), 
-          const SizedBox(height: 100.0,),
-          DefaultTextStyle(
+          ),
+          //const SizedBox(height: 100.0,),
+          const DefaultTextStyle(
             style: TextStyle(
-                color: Colors.blue[900],
+                color: Colors.white,
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,
                 fontFamily: 'RobotoMono'
               ),
             textAlign: TextAlign.center,
-            child: const Text('For a Healthier life that we deserve!',),
+            child: Text('For a Healthier life that we deserve!',),
           ),
         ],
       )
