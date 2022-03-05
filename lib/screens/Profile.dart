@@ -33,16 +33,29 @@ class _ProfileState extends State<Profile> {
                         .image,
                 radius: 100,
               ),
+              const SizedBox(height: 20.0,),
               Text(
                 controller.googleAccount.value?.displayName ?? '',
-                style: Get.textTheme.headlineSmall,
+                style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 20.0,
+                      fontStyle: FontStyle.normal,
+                      fontFamily: 'Raleway'
+                    ),
               ),
+              const SizedBox(height: 10.0,),
               Text(
                 controller.googleAccount.value?.email ?? '',
-                style: Get.textTheme.bodyText1,
+                style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 20.0,
+                      fontStyle: FontStyle.normal,
+                      fontFamily: 'Raleway'
+                    ),
               ),
+              const SizedBox(height: 20.0,),
               ActionChip(
-                  label: Icon(Icons.logout),
+                  label: const Icon(Icons.logout),
                   onPressed: () {
                     controller.logout();
                   }),
