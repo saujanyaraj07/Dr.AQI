@@ -48,6 +48,10 @@ Dr. AQI app provides **Real-Time AQI monitoring** and **mitigation strategy** fo
 - Graphs and data visualisation (Area-wise and Time-wise ) on dashboard makes it easier to understand and plan.
 
 # How we built it?
-Using Dart, Flutter and Firebase
+Frontend: Flutter
+Backend: Currently using Firebase which is a Serverless Backend but in future will use Nodejs, MongoDB, PostgreSQL and AWS Cloud services.
+
+# App UI
+
 
 # App Demo
