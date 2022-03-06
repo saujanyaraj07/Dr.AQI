@@ -50,8 +50,3 @@ Dr. AQI app provides **Real-Time AQI monitoring** and **mitigation strategy** fo
 # How we built it?
 Frontend: Flutter
 Backend: Currently using Firebase which is a Serverless Backend but in future will use Nodejs, MongoDB, PostgreSQL and AWS Cloud services.
-
-# App UI
-
-
-# App Demo
