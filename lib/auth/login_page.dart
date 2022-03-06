@@ -14,17 +14,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 235, 233, 240),
-      body: Container(
-        decoration: BoxDecoration(gradient: AppGradient()),
-        child: Center(
-          child: Obx(() {
-            if (controller.googleAccount.value == null)
-              return buildLoginButton();
-            else
-              return buildProfileView();
-          }),
-        ),
-      ),
+      // body:
     );
   }
 
