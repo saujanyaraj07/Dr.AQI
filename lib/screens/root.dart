@@ -15,7 +15,7 @@ class _RootAppState extends State<RootApp> {
   List itemsTab = [
     {"icon": Icons.home, "size": 30.0},
     {"icon": Icons.dashboard_rounded, "size": 26.0},    
-    {"icon": Icons.map_outlined, "size": 28.0},
+    {"icon": Icons.map_rounded, "size": 28.0},
     {"icon": Icons.person_rounded, "size": 28.0},
   ];
 

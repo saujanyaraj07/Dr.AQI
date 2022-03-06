@@ -1,5 +1,5 @@
 import 'package:dr_aqi/screens/root.dart';
-import 'package:dr_aqi/screens/root.dart';
+
 import 'package:flutter/material.dart';
 import 'package:intro_slider/intro_slider.dart';
 import 'package:intro_slider/slide_object.dart';

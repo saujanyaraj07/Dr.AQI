@@ -10,6 +10,11 @@ class GoogleMapsScreen extends StatefulWidget {
 class _GoogleMapsScreenState extends State<GoogleMapsScreen> {
   // Set<Marker> _marker={};
   // void _onMapCreated(GoogleMapController controller){
+  //   setState(() {
+  //     _marker.add(
+  //       Marker(markerId: MarkerId('id-1'),position: )
+  //     )
+  //   });
   //
   // }
 
