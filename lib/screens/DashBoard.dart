@@ -18,13 +18,12 @@ class _DashBoardState extends State<DashBoard> {
       ),
       child: const Center(
         child: Text(
-          'Dashboard',
+          'Dashboard  Comming Soon',
           style: TextStyle(
-            color: Colors.white,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'
-          ),
+              color: Colors.white,
+              fontSize: 30.0,
+              fontWeight: FontWeight.bold,
+              fontFamily: 'RobotoMono'),
           textAlign: TextAlign.center,
         ),
       ),
